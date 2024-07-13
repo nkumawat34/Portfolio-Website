@@ -67,7 +67,7 @@ UI part is built using ReactJs and Node.js used for backend.Socket.io is highly 
 Decentralized Storage Of Educational Assets and verification using blockchain technology"
               description="It is platform for student and university where documents are uploaded in IPFS and verified through blockchain"
               ghLink="https://github.com/nkumawat34/Etherium_Document_Storage"
-              demoLink="#"
+              demoLink="https://client-etherium-storage-project.onrender.com/"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">

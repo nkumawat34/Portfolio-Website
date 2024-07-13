@@ -13,7 +13,8 @@ import {
   SiTailwindcss,
   SiRedux,
   SiMui,
-  SiSolidity
+  SiSolidity,
+  SiPython  
 } from "react-icons/si";
 
 function Techstack() {
@@ -46,6 +47,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiPython />
       </Col>
       
     </Row>
