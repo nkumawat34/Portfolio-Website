@@ -8,6 +8,7 @@ import Blockchain from "../../Assets/Projects/Blockchain.PNG"
 import Ecart from "../../Assets/Projects/ecart.png";
 import MovieSearchEninge from "../../Assets/Projects/Movie_Search_Engine.png"
 import CryptoCurrency from "../../Assets/Projects/CryptoCurrency.png"
+import Video  from "../../Assets/Portfolio.png"
 import "./project.css";
 
 function Projects() {
@@ -69,7 +70,16 @@ Decentralized Storage Of Educational Assets and verification using blockchain te
               demoLink="#"
             />
           </Col>
-          
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Video}
+              title="
+Video Conferencing Application"
+              description="It is a project which uses webrtc protocol for video conferencing.It is used for one to one conferencing"
+              ghLink="https://github.com/nkumawat34/Client_Video_App"
+              demoLink="https://client-video-app.onrender.com/"
+            />
+          </Col>
         </Row>
       </Container>
       <ScrollToTop />
