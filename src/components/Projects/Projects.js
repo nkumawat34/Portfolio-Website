@@ -80,6 +80,15 @@ Video Conferencing Application"
               demoLink="https://client-video-app.onrender.com/"
             />
           </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Video}
+              title="Youtube Mp3 Downloader"
+              description="It is a project which is useful for download MP3 songs from youtube url "
+              ghLink="https://github.com/nkumawat34/Youtube_MP3_Download"
+              demoLink="https://youtube-mp3-download-frontend.onrender.com"
+            />
+          </Col>
         </Row>
       </Container>
       <ScrollToTop />
