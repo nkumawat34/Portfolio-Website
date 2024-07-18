@@ -9,6 +9,8 @@ import Ecart from "../../Assets/Projects/ecart.png";
 import MovieSearchEninge from "../../Assets/Projects/Movie_Search_Engine.png"
 import CryptoCurrency from "../../Assets/Projects/CryptoCurrency.png"
 import Video  from "../../Assets/Portfolio.png"
+import Youtube from "../../Assets/youtube.jpg"
+import Mentalhealth from "../../Assets/mental_health.jpg"
 import "./project.css";
 
 function Projects() {
@@ -82,11 +84,20 @@ Video Conferencing Application"
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Video}
+              imgPath={Youtube}
               title="Youtube Mp3 Downloader"
               description="It is a project which is useful for download MP3 songs from youtube url "
               ghLink="https://github.com/nkumawat34/Youtube_MP3_Download"
               demoLink="https://youtube-mp3-download-frontend.onrender.com"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Mentalhealth}
+              title="Mental Health Stories"
+              description="Mental Health Stories offer a poignant exploration of the human experience through the lens of mental wellness. These narratives courageously delve into personal struggles with conditions like depression, anxiety, and PTSD, capturing the raw emotions and challenges individuals face. By sharing these stories, authors not only offer solace and validation to those experiencing similar battles but also aim to dismantle stigma and raise awareness.  "
+              ghLink="https://github.com/nkumawat34/Mental_Health_Stories"
+              demoLink="https://mental-health-frontend.onrender.com/"
             />
           </Col>
         </Row>
