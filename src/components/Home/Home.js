@@ -22,7 +22,7 @@ function Home() {
         <Container className="home-content">
         
           <Row>
-           <h3 className="text-center"><span className="fw-bold">No.of Vistors: </span>{count}</h3>
+           <h3 className="text-center"><span className="fw-bold">No.of Visitors: </span>{count}</h3>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
