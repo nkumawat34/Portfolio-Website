@@ -12,7 +12,7 @@ function Home() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/visit')
+    fetch('https://portfolio-backend-1yc6.onrender.com/api/visit')
       .then((response) => response.json())
       .then((data) => setCount(data.count));
   }, []);
