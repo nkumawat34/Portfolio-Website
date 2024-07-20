@@ -6,13 +6,23 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
+import { useState,useEffect } from "react";
 
 function Home() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/api/visit')
+      .then((response) => response.json())
+      .then((data) => setCount(data.count));
+  }, []);
   return (
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
+        
           <Row>
+           <h3 className="text-center"><span className="fw-bold">No.of Vistors: </span>{count}</h3>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
