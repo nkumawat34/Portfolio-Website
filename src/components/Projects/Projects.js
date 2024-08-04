@@ -11,6 +11,7 @@ import CryptoCurrency from "../../Assets/Projects/CryptoCurrency.png"
 import Video  from "../../Assets/Portfolio.png"
 import Youtube from "../../Assets/youtube.jpg"
 import Mentalhealth from "../../Assets/mental_health.jpg"
+import Budget from '../../Assets/images.png'
 import "./project.css";
 
 function Projects() {
@@ -102,7 +103,7 @@ Video Conferencing Application"
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Mentalhealth}
+              imgPath={Budget}
               title="Budget Tracking Application"
               description="It is a application for user where they can manage their daily expenses and savings from this Platform  "
               ghLink="https://github.com/nkumawat34/Budget_Tracking_Application"
