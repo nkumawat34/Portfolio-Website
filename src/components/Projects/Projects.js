@@ -100,6 +100,15 @@ Video Conferencing Application"
               demoLink="https://mental-health-frontend.onrender.com/"
             />
           </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Mentalhealth}
+              title="Budget Tracking Application"
+              description="It is a application for user where they can manage their daily expenses and savings from this Platform  "
+              ghLink="https://github.com/nkumawat34/Budget_Tracking_Application"
+              demoLink="https://budget-tracking-application-7kps.onrender.com/"
+            />
+          </Col>
         </Row>
       </Container>
       <ScrollToTop />
