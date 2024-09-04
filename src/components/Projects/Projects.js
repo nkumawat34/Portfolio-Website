@@ -13,7 +13,7 @@ import Youtube from "../../Assets/youtube.jpg"
 import Mentalhealth from "../../Assets/mental_health.jpg"
 import Budget from '../../Assets/images.png'
 import "./project.css";
-
+import Food from '../../Assets/Projects/Food.jpg'
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -108,6 +108,15 @@ Video Conferencing Application"
               description="It is a application for user where they can manage their daily expenses and savings from this Platform  "
               ghLink="https://github.com/nkumawat34/Budget_Tracking_Application"
               demoLink="https://budget-tracking-application-7kps.onrender.com/"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Food}
+              title="Foodlie"
+              description="Foodlie is an online food ordering website where users can browse menus, add items to their cart, save favorite items to their wishlist, and place orders "
+              ghLink="https://github.com/nkumawat34/Foodlie"
+              demoLink="https://foodlie.onrender.com//"
             />
           </Col>
         </Row>
