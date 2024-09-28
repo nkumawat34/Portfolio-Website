@@ -14,6 +14,7 @@ import Mentalhealth from "../../Assets/mental_health.jpg"
 import Budget from '../../Assets/images.png'
 import "./project.css";
 import Food from '../../Assets/Projects/Food.jpg'
+import GithubUser from '../../Assets/Projects/github_profile.png'
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -117,6 +118,15 @@ Video Conferencing Application"
               description="Foodlie is an online food ordering website where users can browse menus, add items to their cart, save favorite items to their wishlist, and place orders "
               ghLink="https://github.com/nkumawat34/Foodlie"
               demoLink="https://foodlie.onrender.com//"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={GithubUser}
+              title="Github_User_Search"
+              description="A simple and intuitive web application that allows users to search for GitHub usernames and view relevant profile details using the GitHub API."
+              ghLink="https://github.com/nkumawat34/Github_User_Search"
+              demoLink="https://github-user-search-alpha-brown.vercel.app/"
             />
           </Col>
         </Row>
