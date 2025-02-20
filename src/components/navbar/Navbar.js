@@ -93,9 +93,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/book"
+                onClick={() => updateExpanded(false)}
+              >
+                Books
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
-
+          
           <Nav.Item>
             <div className="theme-switch">
               <div id="toggle" onClick={toggeltheme}>

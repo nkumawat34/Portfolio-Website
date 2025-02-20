@@ -1,0 +1,9 @@
+.card {
+    background-color: var(--clr-bg);  /* Dark background */
+    color: var(--clr-text);  /* White text for better contrast */
+}
+
+/*
+background color for dark #202523
+
+*/

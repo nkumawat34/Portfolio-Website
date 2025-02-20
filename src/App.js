@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/footer/Footer";
+import Books from "./components/Books/Books"
 import { ThemeContext } from "./Context/theme";
 import {
   BrowserRouter as Router,
@@ -15,7 +16,6 @@ import {
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 function App() {
   const [load, upadateLoad] = useState(true);
   const [{ themename }] = React.useContext(ThemeContext);
@@ -38,6 +38,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
+            <Route path='/book' element={<Books/>}/>
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
