@@ -40,7 +40,7 @@ export default function Books() {
     </Container>
     <Container>
       <h3 style={{paddingTop:"70px"}}>Interesting things found on internet</h3>
-      <ListGroup as="ol" numbered className='mt-5 border-0 card'>
+      <ListGroup as="ol" numbered className='mt-5 border-0'>
         {interesting_things.map((thing, index) => (
           <ListGroup.Item as="li" key={index} className='border-0 card'>
             {thing.text} - <a href={thing.url} target="_blank" rel="noopener noreferrer">

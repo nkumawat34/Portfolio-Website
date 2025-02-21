@@ -102,8 +102,26 @@ function NavBar() {
                 Books
               </Nav.Link>
             </Nav.Item>
-          </Nav>
           
+          <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/interest"
+                onClick={() => updateExpanded(false)}
+              >
+                Interests
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/wishlist"
+                onClick={() => updateExpanded(false)}
+              >
+                Wishlist
+              </Nav.Link>
+            </Nav.Item>  
+            </Nav>
           <Nav.Item>
             <div className="theme-switch">
               <div id="toggle" onClick={toggeltheme}>
