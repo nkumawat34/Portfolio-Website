@@ -2,17 +2,16 @@ import React from 'react'
 import { ListGroup,Container } from 'react-bootstrap';
 import "./WishList.css"
 export default function WishList() {
-    const list = [
-        "Travel to foreign country with parents",
-        "Full freedom where to live and flexible hours",
-        "Financillay free",
-        "Have own a independet business",
-        "Good Pysique like have muscles",
-        "Own Full customized PC with high specs",
-        "Learn Boxing and Karate",
-    
-
-      ];
+  const list = [
+    "Travel to a foreign country with parents",
+    "Full freedom to choose where to live and flexible hours",
+    "Financially free",
+    "Own an independent business",
+    "Good physique with muscles",
+    "Own a fully customized PC with high specs",
+    "Learn boxing and karate",
+  ];
+  
   return (
     <div>
       <Container >
